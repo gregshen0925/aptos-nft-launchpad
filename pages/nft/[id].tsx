@@ -65,7 +65,7 @@ const NFTDropPage = ({ collection }: Props) => {
       setAvaiableMintChecking(true);
       // const client = new AptosClient("https://fullnode.mainnet.aptoslabs.com/v1")
       const client = new AptosClient(
-        "https://fullnode.testnet.aptoslabs.com/v1"
+        "https://fullnode.mainnet.aptoslabs.com/v1"
       );
       const tokenClient = new TokenClient(client);
 

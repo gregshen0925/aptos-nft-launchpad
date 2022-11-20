@@ -103,7 +103,7 @@ const MintInfo = ({
         // txOptions
       );
       const client = new AptosClient(
-        "https://fullnode.testnet.aptoslabs.com/v1"
+        "https://fullnode.mainnet.aptoslabs.com/v1"
       );
       await client.waitForTransaction(transactionRes?.hash || "");
 
