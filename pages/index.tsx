@@ -54,7 +54,7 @@ const Home = ({ collections }: Props) => {
           with caution
         </h3>
         <a target="_blank" href="https://twitter.com/acidmonkeys">
-          <h3 className="text-white py-5">Powered by Acid Labs</h3>
+          <h3 className="text-white py-5">Powered by InJoy Labs</h3>
         </a>
       </div>
     </div>
