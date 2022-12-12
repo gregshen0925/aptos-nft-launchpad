@@ -17,7 +17,7 @@ const Home = ({ collections }: Props) => {
       </Head>
 
       <h1 className="px-6 md:px-20 mb-10 text-3xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#11bbca] to-[#036e30] ">
-        {/* <p className="font-extrabold ">InJoy Labs</p> */}
+        <p className="font-extrabold ">To The Moon</p>
         <p className="text-xl md:text-2xl">Aptos NFT Launchpad</p>
       </h1>
       <div className="px-10">
