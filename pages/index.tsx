@@ -13,11 +13,11 @@ const Home = ({ collections }: Props) => {
   return (
     <div className="py-8 mx-auto flex min-h-screen flex-col md:py-20 md:px-10 2xl:px-0 bg-black">
       <Head>
-        <title>InJoy Labs Aptos NFT Launchpad</title>
+        <title>Aptos NFT Launchpad</title>
       </Head>
 
       <h1 className="px-6 md:px-20 mb-10 text-3xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#11bbca] to-[#036e30] ">
-        <p className="font-extrabold ">InJoy Labs</p>
+        {/* <p className="font-extrabold ">InJoy Labs</p> */}
         <p className="text-xl md:text-2xl">Aptos NFT Launchpad</p>
       </h1>
       <div className="px-10">
@@ -53,9 +53,9 @@ const Home = ({ collections }: Props) => {
           We do no provide doxxing service at the moment. Please DYOR and mint
           with caution
         </h3>
-        <a target="_blank" href="https://twitter.com/acidmonkeys">
+        {/* <a target="_blank" href="https://twitter.com/acidmonkeys">
           <h3 className="text-white py-5">Powered by InJoy Labs</h3>
-        </a>
+        </a> */}
       </div>
     </div>
   );
